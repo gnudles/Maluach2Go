@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kapandaria.maluach2go.MaluachMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff939bc2"
+            android:paddingEnd="14dp"
+            android:paddingStart="14dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewGreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff9aa4c7"
+            android:paddingEnd="14dp"
+            android:paddingStart="14dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffabb3d0"
+            android:paddingEnd="14dp"
+            android:paddingStart="14dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layoutDirection="@integer/btn_direction"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/prevYearBtn"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:onClick="previousYearClick"
+            android:text="@string/btn_prev_character"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/nextYearBtn"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/prevMonthBtn"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:onClick="previousMonthClick"
+            android:text="@string/btn_prev_character"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/nextMonthBtn"
+            android:layout_width="102sp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+    <!--<TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <kapandaria.maluach2go.YDateView
+            android:id="@+id/ydateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:backgroundColor="#33b5e5"
+            app:frameColor="#33b5e5"
+            app:hebrewMonth="true"
+            app:rightToLeft="true"
+            app:selectionColor="#33b5e5" />
+    </LinearLayout>
+
+
+</LinearLayout>

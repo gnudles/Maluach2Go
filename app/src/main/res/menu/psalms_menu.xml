@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/psalm_chapter_menu_item"
+
+        android:showAsAction="always"
+        android:title="" />
+    <item
+        android:id="@+id/prev_psalm_item"
+        android:showAsAction="always"
+        android:title="@string/btn_prev_character" />
+
+    <item
+        android:id="@+id/next_psalm_item"
+        android:showAsAction="always"
+        android:title="@string/btn_next_character" />
+    <item
+        android:id="@+id/scale_up_font_item"
+        android:showAsAction="always|withText"
+        android:title="+" />
+    <item
+        android:id="@+id/scale_down_font_item"
+        android:showAsAction="always"
+        android:title="-" />
+</menu>

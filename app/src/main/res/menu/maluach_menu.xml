@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/today_menu_item"
+        android:showAsAction="always"
+        android:title="@string/today" />
+    <item
+        android:id="@+id/psalms_menu_item"
+        android:checkable="false"
+        android:title="@string/psalms"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/compass_menu_item"
+        android:showAsAction="always"
+        android:title="@string/compass" />
+    <item
+        android:id="@+id/rightToLeft_item"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:title="@string/right_aligned" />
+    <item
+        android:id="@+id/gregorian_oriented_item"
+        android:checkable="true"
+        android:enabled="true"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/gregorian_display" />
+
+
+</menu>

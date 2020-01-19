@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin">
+
+    <kapandaria.maluach2go.YDateView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        app:rightToLeft="true"
+        app:hebrewMonth="true"
+        app:selectionColor="#33b5e5"
+        app:backgroundColor="#33b5e5"
+        app:frameColor="#33b5e5" />
+
+</LinearLayout>

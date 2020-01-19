@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="YDateView">
+        <attr name="rightToLeft" format="boolean" />
+        <attr name="hebrewMonth" format="boolean" />
+        <attr name="frameColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="selectionColor" format="color" />
+    </declare-styleable>
+</resources>

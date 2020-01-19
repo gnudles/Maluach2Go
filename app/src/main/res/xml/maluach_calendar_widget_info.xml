@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/maluach_calendar_widget"
+    android:initialLayout="@layout/maluach_calendar_widget"
+    android:minHeight="180dp"
+    android:minWidth="180dp"
+    android:previewImage="@drawable/time_widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"></appwidget-provider>

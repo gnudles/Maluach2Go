@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_prev_character">►</string>
+    <string name="alignment_left">שמאל</string>
+    <string name="alignment_right">ימין</string>
+    <string name="right_aligned">ימין לשמאל</string>
+    <string name="gregorian_display">תצוגה לעזית</string>
+    <string name="app_name">מלוח</string>
+    <string name="psalms">תהלים</string>
+    <string name="date_type_greg">לועזי</string>
+    <string name="date_type_heb">עברי</string>
+    <string name="month_greg_full_apr">אפריל</string>
+    <string name="month_greg_full_aug">אוגוסט</string>
+    <string name="month_greg_full_dec">דצמבר</string>
+    <string name="month_greg_full_feb">פברואר</string>
+    <string name="month_greg_full_jan">ינואר</string>
+    <string name="month_greg_full_jul">יולי</string>
+    <string name="month_greg_full_jun">יוני</string>
+    <string name="month_greg_full_mar">מרס</string>
+    <string name="month_greg_full_may">מאי</string>
+    <string name="month_greg_full_nov">נובמבר</string>
+    <string name="month_greg_full_oct">אוקטובר</string>
+    <string name="month_greg_full_sep">ספטמבר</string>
+    <string name="today">היום</string>
+    <string name="week_day_full_fri">שישי</string>
+    <string name="week_day_full_mon">שני</string>
+    <string name="week_day_full_sat">שבת</string>
+    <string name="week_day_full_sun">ראשון</string>
+    <string name="week_day_full_thu">חמישי</string>
+    <string name="week_day_full_tue">שלישי</string>
+    <string name="week_day_full_wed">רביעי</string>
+    <string name="week_day_short_fri">ו</string>
+    <string name="week_day_short_mon">ב</string>
+    <string name="week_day_short_sat">ש</string>
+    <string name="week_day_short_sun">א</string>
+    <string name="week_day_short_thu">ה</string>
+    <string name="week_day_short_tue">ג</string>
+    <string name="week_day_short_wed">ד</string>
+    <string name="ydate_lang">he</string>
+    <string name="btn_next_character">◄</string>
+    <string name="close">סגור</string>
+    <string name="choose">בחר</string>
+    <string name="compass">מצפן</string>
+</resources>
